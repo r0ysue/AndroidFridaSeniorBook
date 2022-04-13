@@ -1,0 +1,153 @@
+r0tracer begin ... !
+Error: java.lang.ClassNotFoundException: Didn't find class "com.tencent.imsdk.TIMManager.getConversation" on path: DexPathList[[dex file "InMemoryDexFile[cookie=[0, 3835351728]]", zip file "/data/app/com.caratlover-syRdR9RVZQ3E7_r3YMQHZg==/base.apk", dex file "/data/app/com.caratlover-syRdR9RVZQ3E7_r3YMQHZg==/base.apk"],nativeLibraryDirectories=[/data/app/com.caratlover-syRdR9RVZQ3E7_r3YMQHZg==/lib/arm, /data/app/com.caratlover-syRdR9RVZQ3E7_r3YMQHZg==/base.apk!/lib/armeabi-v7a, /system/lib]]
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/env.js:124)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:443)
+    at value (frida/node_modules/frida-java-bridge/lib/class-factory.js:812)
+    at _make (frida/node_modules/frida-java-bridge/lib/class-factory.js:112)
+    at use (frida/node_modules/frida-java-bridge/lib/class-factory.js:63)
+    at use (frida/node_modules/frida-java-bridge/index.js:245)
+    at traceClass (/r0tracer.js:110)
+    at <anonymous> (/r0tracer.js:206)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at _performPendingVmOps (frida/node_modules/frida-java-bridge/index.js:237)
+    at <anonymous> (frida/node_modules/frida-java-bridge/index.js:212)
+    at <anonymous> (frida/node_modules/frida-java-bridge/lib/vm.js:12)
+    at _performPendingVmOpsWhenReady (frida/node_modules/frida-java-bridge/index.js:231)
+    at perform (frida/node_modules/frida-java-bridge/index.js:191)
+    at main (/r0tracer.js:218)
+    at apply (native)
+    at <anonymous> (frida/runtime/core.js:45)
+r0tracer begin ... !
+Tracing Method : com.tencent.imsdk.TIMManager.getConversation [1 overload(s)]
+Tracing Method : com.tencent.imsdk.TIMManager.getConversationList [1 overload(s)]
+	Spec: => 
+public static com.tencent.imsdk.TIMManager com.tencent.imsdk.TIMManager.getInstance()
+public void com.tencent.imsdk.TIMManager.addMessageListener(com.tencent.imsdk.TIMMessageListener)
+public void com.tencent.imsdk.TIMManager.addMessageUpdateListener(com.tencent.imsdk.TIMMessageUpdateListener)
+public void com.tencent.imsdk.TIMManager.autoLogin(java.lang.String,com.tencent.imsdk.TIMCallBack)
+public boolean com.tencent.imsdk.TIMManager.deleteConversation(com.tencent.imsdk.TIMConversationType,java.lang.String)
+public boolean com.tencent.imsdk.TIMManager.deleteConversationAndLocalMsgs(com.tencent.imsdk.TIMConversationType,java.lang.String)
+public void com.tencent.imsdk.TIMManager.doBackground(com.tencent.imsdk.TIMBackgroundParam,com.tencent.imsdk.TIMCallBack)
+public void com.tencent.imsdk.TIMManager.doForeground(com.tencent.imsdk.TIMCallBack)
+public com.tencent.imsdk.TIMConversation com.tencent.imsdk.TIMManager.getConversation(com.tencent.imsdk.TIMConversationType,java.lang.String)
+public java.util.List com.tencent.imsdk.TIMManager.getConversationList()
+public java.lang.String com.tencent.imsdk.TIMManager.getLoginUser()
+public com.tencent.imsdk.TIMNetworkStatus com.tencent.imsdk.TIMManager.getNetworkStatus()
+public void com.tencent.imsdk.TIMManager.getOfflinePushSettings(com.tencent.imsdk.TIMValueCallBack)
+public com.tencent.imsdk.TIMSdkConfig com.tencent.imsdk.TIMManager.getSdkConfig()
+public long com.tencent.imsdk.TIMManager.getServerTimeDiff()
+public com.tencent.imsdk.TIMUserConfig com.tencent.imsdk.TIMManager.getUserConfig()
+public java.lang.String com.tencent.imsdk.TIMManager.getVersion()
+public boolean com.tencent.imsdk.TIMManager.init(android.content.Context,com.tencent.imsdk.TIMSdkConfig)
+public int com.tencent.imsdk.TIMManager.initStorage(java.lang.String,com.tencent.imsdk.TIMCallBack)
+public boolean com.tencent.imsdk.TIMManager.isInited()
+public void com.tencent.imsdk.TIMManager.login(java.lang.String,java.lang.String,com.tencent.imsdk.TIMCallBack)
+public void com.tencent.imsdk.TIMManager.logout(com.tencent.imsdk.TIMCallBack)
+public void com.tencent.imsdk.TIMManager.removeMessageListener(com.tencent.imsdk.TIMMessageListener)
+public void com.tencent.imsdk.TIMManager.removeMessageUpdateListener(com.tencent.imsdk.TIMMessageUpdateListener)
+public void com.tencent.imsdk.TIMManager.setOfflinePushListener(com.tencent.imsdk.TIMOfflinePushListener)
+public void com.tencent.imsdk.TIMManager.setOfflinePushSettings(com.tencent.imsdk.TIMOfflinePushSettings)
+public void com.tencent.imsdk.TIMManager.setOfflinePushToken(com.tencent.imsdk.TIMOfflinePushToken,com.tencent.imsdk.TIMCallBack)
+public void com.tencent.imsdk.TIMManager.setUserConfig(com.tencent.imsdk.TIMUserConfig)
+public boolean com.tencent.imsdk.TIMManager.unInit()
+Tracing private com.tencent.imsdk.TIMManager()
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Calling isVIP 
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.tencent.imsdk.TIMManager
+com.tencent.imsdk.conversation.ConversationManager 	mConversationManager => com.tencent.imsdk.conversation.ConversationManager@21ae2dc => "<instance: com.tencent.imsdk.conversation.ConversationManager>"
+java.lang.String 	TAG => TIMManager => "TIMManager"
+com.tencent.imsdk.manager.BaseManager 	mBase => com.tencent.imsdk.manager.BaseManager@8b9cfe5 => "<instance: com.tencent.imsdk.manager.BaseManager>"
+com.tencent.imsdk.TIMManager 	mInstance => com.tencent.imsdk.TIMManager@d955368 => "<instance: com.tencent.imsdk.TIMManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.tencent.imsdk.TIMManager.getConversation
+arg[0]: C2C => "<instance: com.tencent.imsdk.TIMConversationType>"
+arg[1]: klover1_server_190249 => "klover1_server_190249"
+java.lang.Throwable
+	at com.tencent.imsdk.TIMManager.getConversation(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.setCurrentChatInfo(SourceFile:1)
+	at com.tencent.qcloud.tim.uikit.modules.chat.C2CChatManagerKit.setCurrentChatInfo(SourceFile:1)
+	at com.tencent.qcloud.tim.uikit.modules.chat.ChatLayout.setChatInfo(SourceFile:20)
+	at com.chanson.business.message.activity.ChatActivity.da(SourceFile:2)
+	at com.chanson.business.message.activity.ChatActivity.initView(SourceFile:12)
+	at com.chanson.common.base.mvp.BaseActivity.onCreate(SourceFile:16)
+	at android.app.Activity.performCreate(Activity.java:6999)
+	at android.app.Activity.performCreate(Activity.java:6990)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1214)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2731)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2856)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1589)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: com.tencent.imsdk.TIMConversation@80c1d6b => "<instance: com.tencent.imsdk.TIMConversation>"
+
+*** exiting com.tencent.imsdk.TIMManager.getConversation
+Inspecting Fields: => true => class com.tencent.imsdk.TIMManager
+com.tencent.imsdk.conversation.ConversationManager 	mConversationManager => com.tencent.imsdk.conversation.ConversationManager@21ae2dc => "<instance: com.tencent.imsdk.conversation.ConversationManager>"
+java.lang.String 	TAG => TIMManager => "TIMManager"
+com.tencent.imsdk.manager.BaseManager 	mBase => com.tencent.imsdk.manager.BaseManager@8b9cfe5 => "<instance: com.tencent.imsdk.manager.BaseManager>"
+com.tencent.imsdk.TIMManager 	mInstance => com.tencent.imsdk.TIMManager@d955368 => "<instance: com.tencent.imsdk.TIMManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => true => class com.tencent.imsdk.TIMManager
+com.tencent.imsdk.conversation.ConversationManager 	mConversationManager => com.tencent.imsdk.conversation.ConversationManager@21ae2dc => "<instance: com.tencent.imsdk.conversation.ConversationManager>"
+java.lang.String 	TAG => TIMManager => "TIMManager"
+com.tencent.imsdk.manager.BaseManager 	mBase => com.tencent.imsdk.manager.BaseManager@8b9cfe5 => "<instance: com.tencent.imsdk.manager.BaseManager>"
+com.tencent.imsdk.TIMManager 	mInstance => com.tencent.imsdk.TIMManager@d955368 => "<instance: com.tencent.imsdk.TIMManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+
+*** entered com.tencent.imsdk.TIMManager.getConversation
+arg[0]: C2C => "<instance: com.tencent.imsdk.TIMConversationType>"
+arg[1]: klover1_server_190249 => "klover1_server_190249"
+java.lang.Throwable
+	at com.tencent.imsdk.TIMManager.getConversation(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.setCurrentChatInfo(SourceFile:1)
+	at com.tencent.qcloud.tim.uikit.modules.chat.C2CChatManagerKit.setCurrentChatInfo(SourceFile:1)
+	at com.tencent.qcloud.tim.uikit.modules.chat.ChatLayout.setChatInfo(SourceFile:20)
+	at com.chanson.business.message.activity.ChatActivity.da(SourceFile:2)
+	at com.chanson.business.message.activity.ChatActivity.initView(SourceFile:12)
+	at com.chanson.common.base.mvp.BaseActivity.onCreate(SourceFile:16)
+	at android.app.Activity.performCreate(Activity.java:6999)
+	at android.app.Activity.performCreate(Activity.java:6990)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1214)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2731)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2856)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1589)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: com.tencent.imsdk.TIMConversation@42ebc2f => "<instance: com.tencent.imsdk.TIMConversation>"
+
+*** exiting com.tencent.imsdk.TIMManager.getConversation
+Inspecting Fields: => true => class com.tencent.imsdk.TIMManager
+com.tencent.imsdk.conversation.ConversationManager 	mConversationManager => com.tencent.imsdk.conversation.ConversationManager@21ae2dc => "<instance: com.tencent.imsdk.conversation.ConversationManager>"
+java.lang.String 	TAG => TIMManager => "TIMManager"
+com.tencent.imsdk.manager.BaseManager 	mBase => com.tencent.imsdk.manager.BaseManager@8b9cfe5 => "<instance: com.tencent.imsdk.manager.BaseManager>"
+com.tencent.imsdk.TIMManager 	mInstance => com.tencent.imsdk.TIMManager@d955368 => "<instance: com.tencent.imsdk.TIMManager>"
+[native 	function h() {
+    [native code]
+} => undefined => undefined
+

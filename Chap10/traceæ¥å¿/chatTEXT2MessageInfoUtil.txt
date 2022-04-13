@@ -1,0 +1,1205 @@
+     ____
+    / _  |   Frida 14.2.3 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   More info at https://www.frida.re/docs/home/
+[Nexus 5X::克拉恋人]-> r0tracer begin ... !
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessages2MessageInfos [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildAudioMessage [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildCustomFaceMessage [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildCustomMessage [2 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildFileMessage [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildGroupCustomMessage [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildImageMessage [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildLocationMessage [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildTextMessage [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildVideoMessage [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.isTyping [2 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.setOfflinePushSetting [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.wrapperColor [1 overload(s)]
+Tracing Method : com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.$init [1 overload(s)]
+	Spec: => 
+private static int com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType(com.tencent.imsdk.TIMElemType)
+public static java.util.List com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(com.tencent.imsdk.TIMMessage,boolean)
+public static java.util.List com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessages2MessageInfos(java.util.List,boolean)
+public static com.tencent.qcloud.tim.uikit.modules.message.MessageInfo com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildAudioMessage(java.lang.String,int)
+public static com.tencent.qcloud.tim.uikit.modules.message.MessageInfo com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildCustomFaceMessage(int,java.lang.String)
+public static com.tencent.qcloud.tim.uikit.modules.message.MessageInfo com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildCustomMessage(java.lang.String)
+public static com.tencent.qcloud.tim.uikit.modules.message.MessageInfo com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildCustomMessage(java.lang.String,java.lang.String)
+public static com.tencent.qcloud.tim.uikit.modules.message.MessageInfo com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildFileMessage(android.net.Uri)
+public static com.tencent.imsdk.TIMMessage com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildGroupCustomMessage(java.lang.String,java.lang.String)
+public static com.tencent.qcloud.tim.uikit.modules.message.MessageInfo com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildImageMessage(android.net.Uri,boolean)
+public static com.tencent.qcloud.tim.uikit.modules.message.MessageInfo com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildLocationMessage(java.lang.String,double,double)
+public static com.tencent.qcloud.tim.uikit.modules.message.MessageInfo com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildTextMessage(java.lang.String)
+public static com.tencent.qcloud.tim.uikit.modules.message.MessageInfo com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildVideoMessage(java.lang.String,java.lang.String,int,int,long)
+private static com.tencent.qcloud.tim.uikit.modules.message.MessageInfo com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(com.tencent.qcloud.tim.uikit.modules.message.MessageInfo,com.tencent.imsdk.TIMMessage,com.tencent.imsdk.TIMElem,boolean)
+public static boolean com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.isTyping(com.tencent.imsdk.TIMMessage)
+private static boolean com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.isTyping(byte[])
+private static void com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.setOfflinePushSetting(com.tencent.imsdk.TIMMessage,java.lang.String)
+private static java.lang.String com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.wrapperColor(java.lang.String)
+Tracing public com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil()
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+arg[0]: Text => "<instance: com.tencent.imsdk.TIMElemType>"
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(SourceFile:168)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 0 => 0
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+arg[0]: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@270f280 => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+arg[1]: TIMMessage{
+	ConverstaionType:Group
+	ConversationId:@TGS#aFHR5PZGW
+	MsgId:16642
+	MsgSeq:1270356
+	Rand:16642
+	time:1614087181
+	isSelf:false
+	Status:SendSucc
+	Sender:administrator
+	elements:[
+		{Type:Text, Content:{"type":"GroupMsg","data":{"userId":357140,"userId2":5781,"nickName":"风云人物","nickName2":"楠","avatar":"https://cdn.kela77.com/images/avatar/357140-202009210613-p8rubx.png?x-oss-process=style/avatar_thumb","sex":2,"sex2":1,"conText":"风云人物 解锁了 楠 的联系方式~","type":5}}}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[2]: com.tencent.imsdk.TIMTextElem@2fa70b9 => "<instance: com.tencent.imsdk.TIMElem, $className: com.tencent.imsdk.TIMTextElem>"
+arg[3]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@270f280 => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+arg[0]: TIMMessage{
+	ConverstaionType:Group
+	ConversationId:@TGS#aFHR5PZGW
+	MsgId:16642
+	MsgSeq:1270356
+	Rand:16642
+	time:1614087181
+	isSelf:false
+	Status:SendSucc
+	Sender:administrator
+	elements:[
+		{Type:Text, Content:{"type":"GroupMsg","data":{"userId":357140,"userId2":5781,"nickName":"风云人物","nickName2":"楠","avatar":"https://cdn.kela77.com/images/avatar/357140-202009210613-p8rubx.png?x-oss-process=style/avatar_thumb","sex":2,"sex2":1,"conText":"风云人物 解锁了 楠 的联系方式~","type":5}}}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[1]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: [object Object] => "<instance: java.util.List, $className: java.util.ArrayList>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+arg[0]: Text => "<instance: com.tencent.imsdk.TIMElemType>"
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(SourceFile:168)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 0 => 0
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+arg[0]: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@9485f75 => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+arg[1]: TIMMessage{
+	ConverstaionType:Group
+	ConversationId:@TGS#aFHR5PZGW
+	MsgId:16642
+	MsgSeq:1270357
+	Rand:16642
+	time:1614087181
+	isSelf:false
+	Status:SendSucc
+	Sender:administrator
+	elements:[
+		{Type:Text, Content:{"type":"GroupMsg","data":{"userId":164219,"userId2":6639,"nickName":"大智若愚","nickName2":"36D+蜜桃臀","avatar":"https://cdn.kela77.com/images/avatar/164219-202004040659-15k3se.png?x-oss-process=style/avatar_thumb","sex":2,"sex2":1,"conText":"大智若愚 解锁了 36D+蜜桃臀 的联系方式~","type":5}}}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[2]: com.tencent.imsdk.TIMTextElem@a647b0a => "<instance: com.tencent.imsdk.TIMElem, $className: com.tencent.imsdk.TIMTextElem>"
+arg[3]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@9485f75 => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+arg[0]: TIMMessage{
+	ConverstaionType:Group
+	ConversationId:@TGS#aFHR5PZGW
+	MsgId:16642
+	MsgSeq:1270357
+	Rand:16642
+	time:1614087181
+	isSelf:false
+	Status:SendSucc
+	Sender:administrator
+	elements:[
+		{Type:Text, Content:{"type":"GroupMsg","data":{"userId":164219,"userId2":6639,"nickName":"大智若愚","nickName2":"36D+蜜桃臀","avatar":"https://cdn.kela77.com/images/avatar/164219-202004040659-15k3se.png?x-oss-process=style/avatar_thumb","sex":2,"sex2":1,"conText":"大智若愚 解锁了 36D+蜜桃臀 的联系方式~","type":5}}}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[1]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: [object Object] => "<instance: java.util.List, $className: java.util.ArrayList>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+Calling isVIP 
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.setOfflinePushSetting
+arg[0]: TIMMessage{
+	ConverstaionType:Invalid
+	ConversationId:
+	MsgId:1459467187
+	MsgSeq:22269
+	Rand:1459467187
+	time:1614087197
+	isSelf:true
+	Status:Sending
+	Sender:klover1_server_550179
+	elements:[
+		{Type:Text, Content:ccccdddd}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[1]: ccccdddd => "ccccdddd"
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.setOfflinePushSetting(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildTextMessage(SourceFile:6)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildTextMessage(Native Method)
+	at com.chanson.business.message.activity.ChatActivity.a(SourceFile:41)
+	at com.chanson.business.message.presenter.g.a(SourceFile:2)
+	at com.chanson.business.message.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: undefined => undefined
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.setOfflinePushSetting
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildTextMessage
+arg[0]: ccccdddd => "ccccdddd"
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildTextMessage(Native Method)
+	at com.chanson.business.message.activity.ChatActivity.a(SourceFile:41)
+	at com.chanson.business.message.presenter.g.a(SourceFile:2)
+	at com.chanson.business.message.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@cce76cc => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildTextMessage
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+arg[0]: Text => "<instance: com.tencent.imsdk.TIMElemType>"
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(SourceFile:168)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.chanson.business.message.presenter.MessagePresenter.a(SourceFile:34)
+	at com.chanson.business.message.presenter.p.onRefreshConversation(SourceFile:2)
+	at com.tencent.qcloud.tim.uikit.TUIKitImpl$5.onRefreshConversation(SourceFile:3)
+	at com.tencent.imsdk.conversation.ConversationManager$1$3.run(SourceFile:2)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 0 => 0
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+arg[0]: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@5d7f61b => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+arg[1]: TIMMessage{
+	ConverstaionType:C2C
+	ConversationId:klover1_server_238494
+	MsgId:1459467187
+	MsgSeq:22270
+	Rand:1459467187
+	time:1614087197
+	isSelf:true
+	Status:Sending
+	Sender:klover1_server_550179
+	elements:[
+		{Type:Text, Content:ccccdddd}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[2]: com.tencent.imsdk.TIMTextElem@dd233b8 => "<instance: com.tencent.imsdk.TIMElem, $className: com.tencent.imsdk.TIMTextElem>"
+arg[3]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.chanson.business.message.presenter.MessagePresenter.a(SourceFile:34)
+	at com.chanson.business.message.presenter.p.onRefreshConversation(SourceFile:2)
+	at com.tencent.qcloud.tim.uikit.TUIKitImpl$5.onRefreshConversation(SourceFile:3)
+	at com.tencent.imsdk.conversation.ConversationManager$1$3.run(SourceFile:2)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@5d7f61b => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+arg[0]: TIMMessage{
+	ConverstaionType:C2C
+	ConversationId:klover1_server_238494
+	MsgId:1459467187
+	MsgSeq:22270
+	Rand:1459467187
+	time:1614087197
+	isSelf:true
+	Status:Sending
+	Sender:klover1_server_550179
+	elements:[
+		{Type:Text, Content:ccccdddd}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[1]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.chanson.business.message.presenter.MessagePresenter.a(SourceFile:34)
+	at com.chanson.business.message.presenter.p.onRefreshConversation(SourceFile:2)
+	at com.tencent.qcloud.tim.uikit.TUIKitImpl$5.onRefreshConversation(SourceFile:3)
+	at com.tencent.imsdk.conversation.ConversationManager$1$3.run(SourceFile:2)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: [object Object] => "<instance: java.util.List, $className: java.util.ArrayList>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+arg[0]: Text => "<instance: com.tencent.imsdk.TIMElemType>"
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(SourceFile:168)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 0 => 0
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+arg[0]: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@6df6b8d => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+arg[1]: TIMMessage{
+	ConverstaionType:Group
+	ConversationId:@TGS#aFHR5PZGW
+	MsgId:59673
+	MsgSeq:1270361
+	Rand:59673
+	time:1614087199
+	isSelf:false
+	Status:SendSucc
+	Sender:administrator
+	elements:[
+		{Type:Text, Content:{"type":"GroupMsg","data":{"userId":547982,"userId2":0,"nickName":"aijin","nickName2":"","avatar":"https://cdn.kela77.com/images/avatar/547982-202102030926-35e6m3.png?x-oss-process=style/avatar_thumb","sex":2,"sex2":0,"conText":"aijin很无聊的上线了！","type":1}}}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[2]: com.tencent.imsdk.TIMTextElem@bf3f142 => "<instance: com.tencent.imsdk.TIMElem, $className: com.tencent.imsdk.TIMTextElem>"
+arg[3]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@6df6b8d => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+arg[0]: TIMMessage{
+	ConverstaionType:Group
+	ConversationId:@TGS#aFHR5PZGW
+	MsgId:59673
+	MsgSeq:1270361
+	Rand:59673
+	time:1614087199
+	isSelf:false
+	Status:SendSucc
+	Sender:administrator
+	elements:[
+		{Type:Text, Content:{"type":"GroupMsg","data":{"userId":547982,"userId2":0,"nickName":"aijin","nickName2":"","avatar":"https://cdn.kela77.com/images/avatar/547982-202102030926-35e6m3.png?x-oss-process=style/avatar_thumb","sex":2,"sex2":0,"conText":"aijin很无聊的上线了！","type":1}}}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[1]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: [object Object] => "<instance: java.util.List, $className: java.util.ArrayList>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+Calling isVIP 
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.setOfflinePushSetting
+arg[0]: TIMMessage{
+	ConverstaionType:Invalid
+	ConversationId:
+	MsgId:1459730611
+	MsgSeq:22273
+	Rand:1459730611
+	time:1614087202
+	isSelf:true
+	Status:Sending
+	Sender:klover1_server_550179
+	elements:[
+		{Type:Text, Content:eeeeffff}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[1]: eeeeffff => "eeeeffff"
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.setOfflinePushSetting(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildTextMessage(SourceFile:6)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildTextMessage(Native Method)
+	at com.chanson.business.message.activity.ChatActivity.a(SourceFile:41)
+	at com.chanson.business.message.presenter.g.a(SourceFile:2)
+	at com.chanson.business.message.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: undefined => undefined
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.setOfflinePushSetting
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildTextMessage
+arg[0]: eeeeffff => "eeeeffff"
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildTextMessage(Native Method)
+	at com.chanson.business.message.activity.ChatActivity.a(SourceFile:41)
+	at com.chanson.business.message.presenter.g.a(SourceFile:2)
+	at com.chanson.business.message.presenter.g.onCall(SourceFile:1)
+	at com.chanson.common.base.SimpleObserver.onNext(SourceFile:1)
+	at d.a.e.e.b.k$b.a(SourceFile:37)
+	at d.a.e.e.b.k$a.onNext(SourceFile:2)
+	at d.a.e.e.b.s$a.onNext(SourceFile:5)
+	at d.a.e.e.b.u$a.run(SourceFile:2)
+	at d.a.e.e.b.r.b(SourceFile:3)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.s.b(SourceFile:1)
+	at d.a.k.a(SourceFile:77)
+	at d.a.e.e.b.k$b.a(SourceFile:11)
+	at d.a.e.e.b.k$b.onNext(SourceFile:10)
+	at d.a.e.e.b.t$a.d(SourceFile:8)
+	at d.a.e.e.b.t$a.run(SourceFile:3)
+	at d.a.a.b.c$b.run(SourceFile:1)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@725c3bd => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.buildTextMessage
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+arg[0]: Text => "<instance: com.tencent.imsdk.TIMElemType>"
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(SourceFile:168)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.chanson.business.message.presenter.MessagePresenter.a(SourceFile:34)
+	at com.chanson.business.message.presenter.p.onRefreshConversation(SourceFile:2)
+	at com.tencent.qcloud.tim.uikit.TUIKitImpl$5.onRefreshConversation(SourceFile:3)
+	at com.tencent.imsdk.conversation.ConversationManager$1$3.run(SourceFile:2)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 0 => 0
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+arg[0]: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@3bf5880 => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+arg[1]: TIMMessage{
+	ConverstaionType:C2C
+	ConversationId:klover1_server_238494
+	MsgId:1459730611
+	MsgSeq:22274
+	Rand:1459730611
+	time:1614087202
+	isSelf:true
+	Status:Sending
+	Sender:klover1_server_550179
+	elements:[
+		{Type:Text, Content:eeeeffff}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[2]: com.tencent.imsdk.TIMTextElem@86fdeb9 => "<instance: com.tencent.imsdk.TIMElem, $className: com.tencent.imsdk.TIMTextElem>"
+arg[3]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.chanson.business.message.presenter.MessagePresenter.a(SourceFile:34)
+	at com.chanson.business.message.presenter.p.onRefreshConversation(SourceFile:2)
+	at com.tencent.qcloud.tim.uikit.TUIKitImpl$5.onRefreshConversation(SourceFile:3)
+	at com.tencent.imsdk.conversation.ConversationManager$1$3.run(SourceFile:2)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@3bf5880 => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+arg[0]: TIMMessage{
+	ConverstaionType:C2C
+	ConversationId:klover1_server_238494
+	MsgId:1459730611
+	MsgSeq:22274
+	Rand:1459730611
+	time:1614087202
+	isSelf:true
+	Status:Sending
+	Sender:klover1_server_550179
+	elements:[
+		{Type:Text, Content:eeeeffff}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[1]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.chanson.business.message.presenter.MessagePresenter.a(SourceFile:34)
+	at com.chanson.business.message.presenter.p.onRefreshConversation(SourceFile:2)
+	at com.tencent.qcloud.tim.uikit.TUIKitImpl$5.onRefreshConversation(SourceFile:3)
+	at com.tencent.imsdk.conversation.ConversationManager$1$3.run(SourceFile:2)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: [object Object] => "<instance: java.util.List, $className: java.util.ArrayList>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+arg[0]: Text => "<instance: com.tencent.imsdk.TIMElemType>"
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(SourceFile:168)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 0 => 0
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+arg[0]: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@f2c0843 => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+arg[1]: TIMMessage{
+	ConverstaionType:Group
+	ConversationId:@TGS#aFHR5PZGW
+	MsgId:2586
+	MsgSeq:1270363
+	Rand:2586
+	time:1614087211
+	isSelf:false
+	Status:SendSucc
+	Sender:administrator
+	elements:[
+		{Type:Text, Content:{"type":"GroupMsg","data":{"userId":303921,"userId2":7835,"nickName":"丢哦","nickName2":"秀","avatar":"https://cdn.kela77.com/images/avatar/303921-202008141631-rjilgl.png?x-oss-process=style/avatar_thumb","sex":2,"sex2":1,"conText":"丢哦 解锁了 秀 的联系方式~","type":5}}}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[2]: com.tencent.imsdk.TIMTextElem@7161ec0 => "<instance: com.tencent.imsdk.TIMElem, $className: com.tencent.imsdk.TIMTextElem>"
+arg[3]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@f2c0843 => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+arg[0]: TIMMessage{
+	ConverstaionType:Group
+	ConversationId:@TGS#aFHR5PZGW
+	MsgId:2586
+	MsgSeq:1270363
+	Rand:2586
+	time:1614087211
+	isSelf:false
+	Status:SendSucc
+	Sender:administrator
+	elements:[
+		{Type:Text, Content:{"type":"GroupMsg","data":{"userId":303921,"userId2":7835,"nickName":"丢哦","nickName2":"秀","avatar":"https://cdn.kela77.com/images/avatar/303921-202008141631-rjilgl.png?x-oss-process=style/avatar_thumb","sex":2,"sex2":1,"conText":"丢哦 解锁了 秀 的联系方式~","type":5}}}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[1]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: [object Object] => "<instance: java.util.List, $className: java.util.ArrayList>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+
+
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+arg[0]: Text => "<instance: com.tencent.imsdk.TIMElemType>"
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(SourceFile:168)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: 0 => 0
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMElemType2MessageInfoType
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+arg[0]: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@9e66ec => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+arg[1]: TIMMessage{
+	ConverstaionType:Group
+	ConversationId:@TGS#aFHR5PZGW
+	MsgId:2586
+	MsgSeq:1270364
+	Rand:2586
+	time:1614087211
+	isSelf:false
+	Status:SendSucc
+	Sender:administrator
+	elements:[
+		{Type:Text, Content:{"type":"GroupMsg","data":{"userId":297457,"userId2":19377,"nickName":"杨代根","nickName2":"嘎哈","avatar":"https://cdn.kela77.com/images/avatar/297457-202008111952-xvxldi.png?x-oss-process=style/avatar_thumb","sex":2,"sex2":1,"conText":"杨代根 解锁了 嘎哈 的联系方式~","type":5}}}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[2]: com.tencent.imsdk.TIMTextElem@d55eab5 => "<instance: com.tencent.imsdk.TIMElem, $className: com.tencent.imsdk.TIMTextElem>"
+arg[3]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(SourceFile:5)
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo@9e66ec => "<instance: com.tencent.qcloud.tim.uikit.modules.message.MessageInfo>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.ele2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+========================================================================================================================================================================================================
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+*** entered com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+arg[0]: TIMMessage{
+	ConverstaionType:Group
+	ConversationId:@TGS#aFHR5PZGW
+	MsgId:2586
+	MsgSeq:1270364
+	Rand:2586
+	time:1614087211
+	isSelf:false
+	Status:SendSucc
+	Sender:administrator
+	elements:[
+		{Type:Text, Content:{"type":"GroupMsg","data":{"userId":297457,"userId2":19377,"nickName":"杨代根","nickName2":"嘎哈","avatar":"https://cdn.kela77.com/images/avatar/297457-202008111952-xvxldi.png?x-oss-process=style/avatar_thumb","sex":2,"sex2":1,"conText":"杨代根 解锁了 嘎哈 的联系方式~","type":5}}}
+	]
+}
+ => "<instance: com.tencent.imsdk.TIMMessage>"
+arg[1]: false => false
+java.lang.Throwable
+	at com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo(Native Method)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.addMessage(SourceFile:3)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onReceiveMessage(SourceFile:4)
+	at com.tencent.qcloud.tim.uikit.modules.chat.base.ChatManagerKit.onNewMessages(SourceFile:11)
+	at com.tencent.imsdk.conversation.ConversationManager$2$1.run(SourceFile:3)
+	at android.os.Handler.handleCallback(Handler.java:790)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6494)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:438)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:807)
+
+
+retval: [object Object] => "<instance: java.util.List, $className: java.util.ArrayList>"
+
+*** exiting com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil.TIMMessage2MessageInfo
+Inspecting Fields: => false => class com.tencent.qcloud.tim.uikit.modules.message.MessageInfoUtil
+java.lang.String 	GROUP_CREATE => group_create => "group_create"
+java.lang.String 	GROUP_DELETE => group_delete => "group_delete"
+java.lang.String 	TAG => MessageInfoUtil => "MessageInfoUtil"
+
+Process terminated
+
+Thank you for using Frida!
